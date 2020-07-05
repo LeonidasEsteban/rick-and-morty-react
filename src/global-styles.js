@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     background: #00a5be;
     font-family: system-ui;
     overflow-x: hidden;
-    background-image: url('/images/asset-red.svg');
+    background-image: url('./images/asset-red.svg');
     background-position: left 200px top;
     background-repeat: no-repeat;
   }

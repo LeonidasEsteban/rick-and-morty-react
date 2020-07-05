@@ -10,8 +10,8 @@ function App() {
       <GlobalStyle />
       <Router>
         <Switch>
-          <Route path="/" exact component={Character} />
-          <Route path="/:id" exact component={Character} />
+          <Route path={`${process.env.PUBLIC_URL}/`} exact component={Character} />
+          <Route path={`${process.env.PUBLIC_URL}/:id`} exact component={Character} />
         </Switch>
       </Router>
     </div>
