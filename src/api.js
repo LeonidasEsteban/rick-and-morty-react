@@ -1,4 +1,4 @@
-export default class API {
+class API {
   async getCharacter(id) {
     const response = await fetch(`https://rickandmortyapi.com/api/character/${id}`)
     const data = await response.json()
@@ -7,3 +7,6 @@ export default class API {
     //   .then((data) => data)
   }
 }
+const api = new API()
+export default api
+

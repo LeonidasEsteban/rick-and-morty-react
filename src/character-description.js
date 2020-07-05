@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 
 const CharacterDescriptionStyled = styled.div`
-  grid-area: character-description;
   .character-label {
     background: #685128;
     padding: 1em;
